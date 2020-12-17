@@ -1,0 +1,49 @@
+body{
+    background-image:url('leaves.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.sidenav{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    background-color: cadetblue;
+    overflow-x:hidden;
+    padding-top: 30px;
+}
+.sidenav a{
+    padding: 16px 8px 8px 18px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.sidenav a:hover{
+    color: black;
+
+}
+h1{
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 50%; 
+    font-family: lato;
+    color: white;
+}
+
+h2{
+    padding:50px;
+    padding-left: 40%;
+    color: white;
+    font-size: 30px;
+    font-family: Lato;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    text-align: left;
+    padding: 10px;
+}
